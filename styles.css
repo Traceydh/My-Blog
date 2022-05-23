@@ -1,0 +1,15 @@
+header {
+    background-color: rgb(152, 187, 219);
+    display: flex; 
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+    display: flex; 
+    gap: 20px;
+    justify-content: flex-end;
+    margin: 20px;
+}
