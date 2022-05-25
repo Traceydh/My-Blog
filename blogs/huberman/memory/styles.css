@@ -3,6 +3,15 @@ h3, body {
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+a:hover { 
+    text-decoration: none;
+    color:rgb(36, 99, 216);
+ }
+
 .header {
     list-style: none;
     display: flex; 
@@ -43,6 +52,12 @@ main {
 .about {
     width: 200px;
     padding-left: 30px;
+}
+
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 20px;
 }
 
 footer {
