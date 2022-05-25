@@ -19,23 +19,32 @@ h1 {
     background-color: rgb(45, 128, 236);
     padding: 100px;
     color: rgb(255, 255, 255);
+    text-align: center;
 }
 
-p {
+.content {
     font-size: 18px;
+
+    margin: 0 auto;
+    width: 800px;
+
+}
+
+.profile {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
     text-align: left;
-    margin-bottom: 10;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-
 }
 
-img {
-    width: 500px;
-    height: auto;
+main {
+    display: flex;
+    justify-content: space-between;
+    background-color: blanchedalmond;
 }
 
-figcaption {
-    font-style: italic;
+.about {
+    width: 200px;
+    margin: 30px;
 }
