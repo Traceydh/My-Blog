@@ -26,12 +26,13 @@ a:hover {
 
  main {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
  }
 
  img {
-     width: 250px;
+     height: 250px;
      border-radius: 200px;
      margin: 20px 0;
  }
@@ -44,6 +45,8 @@ a:hover {
     background-color: white;
     box-shadow: 5px 5px lightgrey;
     border-radius: 30px;
+
+    margin: 20px;
  }
 
  div a {
