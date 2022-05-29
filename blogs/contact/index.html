@@ -22,26 +22,34 @@
         </header>
 
         <main>
-            <h1>Reach out to me here</h1>
-            <form>
+            <form action="" method="GET">
+                <h1>Reach out to me here</h1>
                 <div>
-                    <label for="name">Name</label>
-                    <input type="text" placeholder="name" id="name" name="name">
+                    <input type="text" placeholder="name" id="name" name="name" required>
                 </div>
                 <div>
-                    <label for="phone">Phone</label>
                     <input type="text" placeholder="phone" id="phone" name="phone">
                 </div>
                 <div>
-                    <label for="email">Email</label>
-                    <input type="email" placeholder="email" id="email" name="email">
+                    <input type="email" placeholder="email" id="email" name="email" required>
                 </div>
                 <div>
-                    <label for="Message">Message</label>
-                    <input type="text" placeholder="type your message here" id="Message" name="Message">
+                    <textarea type="text" placeholder="type your message here" id="message" name="message" required></textarea>
                 </div>
                 <button>Submit</button>
             </form>
+            <div>
+                <h2>Connect here</h2>
+                <ul>
+                    <li>Facebook</li>
+                    <li>instagram</li>
+                    <li>Github</li>
+                </ul>
+                <h2>Call me on</h2>
+                <ul>
+                    <li>Phone<br>0412345678</li>
+                </ul>
+            </div>
         </main>
     </body>
 </html>
