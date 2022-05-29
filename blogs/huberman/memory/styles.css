@@ -16,7 +16,7 @@ a:hover {
      padding-bottom: 5px;
  }
 
-.header {
+nav ul {
     list-style: none;
     display: flex; 
     gap: 20px;
@@ -24,8 +24,9 @@ a:hover {
     margin: 20px;
 }
 
-h1 {
-    background-color: rgb(45, 128, 236);
+h1, footer {
+    background-image: linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://images.unsplash.com/photo-1597484389225-c68a9f0fa106?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=747&q=80);
+    background-size: cover;
     padding: 100px;
     color: rgb(255, 255, 255);
     text-align: center;
