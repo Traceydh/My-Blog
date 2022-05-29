@@ -32,12 +32,23 @@ h1, footer {
     text-align: center;
 }
 
+.container {
+    display: grid;
+    grid-template-columns: 15% 15% 40% 10% 20%;
+}
+
 .content {
     font-size: 18px;
     text-align: left;
-    width: 700px;
     padding-bottom: 40px;
+    grid-column: 3 / 4;
+}
 
+.about {
+    width: 200px;
+    padding-left: 30px;
+    grid-column-start: -2;
+    margin-top: 30px;
 }
 
 .profile {
@@ -53,10 +64,7 @@ main {
     justify-content: center;
 }
 
-.about {
-    width: 200px;
-    padding-left: 30px;
-}
+
 
 img {
     width: 400px;
