@@ -13,12 +13,12 @@
     <body>
         <header>
             <nav> 
-                <img src="LOGO.png">
+                <img src="" alt="logo">
                 <ul>
-                    <li>About me</li>
-                    <li><a href="porfolio/index.html">Portfolio</a></li>
-                    <li><a href="blogs/index.html">Blogs</a></li>
-                    <li><a href="blogs/contact/index.html">Contact</a></li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#projects">Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
             <div class="text-area">
@@ -36,7 +36,7 @@
         </header>
         <main>
             <!--About Me section --> 
-            <section class="sub-section">
+            <section class="sub-section" id="about-me">
                 <div class="info">
                     <h2>About Me</h2>
                     <p>Hello my name is Tracey Huang, I am an aspiring web developer with a passion for learning. I quit my job as a surgical orthopaedic engineer and am now pursuing my love of web development.</p>
@@ -46,19 +46,35 @@
                 </div>
             </section>
             <!--Projects --> 
-            <section class="project-section">
+            <section class="project-section" id="projects">
                 <h2>Projects</h2>
                 <div class="project-container">
                     <div class="project-card">
                         <img src="images/project-calculator.jpg" alt="project calculator">
-                        <button><a href="https://traceydh.github.io/Project-Calculator/" target="blank">View</a></button>
-                        <button><a href="https://github.com/Traceydh/Project-Calculator" target="blank">Code</a></button>
+                        <div>
+                            <button><a href="https://traceydh.github.io/Project-Calculator/" target="blank">View</a></button>
+                            <button><a href="https://github.com/Traceydh/Project-Calculator" target="blank">Code</a></button>
+                        </div>
+                        <h3>Calculator Project</h3>
+                        <p>Coding project from Odin Project, goal was to design a fully functioning calculator using HTML, CSS and JS</p>
                     </div>
                     <div class="project-card">
-                        <img src="" alt="project calculator">
+                        <img src="images/sketch.JPG" alt="project Etch-A-Sketch">
+                        <div>
+                            <button><a href="https://traceydh.github.io/Etch-A-Sketch/" target="blank">View</a></button>
+                            <button><a href="https://github.com/Traceydh/Etch-A-Sketch" target="blank">Code</a></button>
+                        </div>
+                        <h3>Etch-A-Sketch Project</h3>
+                        <p>Coding project from Odin Project, go back in time and draw on this digital etch-a-sketch</p>
                     </div>
                     <div class="project-card">
-                        <img src="" alt="project calculator">
+                        <img src="images/rockpaperscissors.png" alt="project rock paper scissors">
+                        <div>
+                            <button><a href="https://traceydh.github.io/rock-paper-scissors/" target="blank">View</a></button>
+                            <button><a href="https://github.com/Traceydh/rock-paper-scissors" target="blank">Code</a></button>
+                        </div>
+                        <h3>Rock Paper Scissors Project</h3>
+                        <p>Coding project from Odin Project, you verse the computer who will come out victorious?</p>
                     </div>
                     <div class="project-card">
                         <img src="" alt="project calculator">
@@ -66,7 +82,7 @@
                 </div>
             </section>
             <!--footer--> 
-            <section></section>
+            <section id="contact"></section>
         </main>
 
         <footer></footer>
