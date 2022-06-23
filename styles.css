@@ -1,13 +1,18 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
 }
 
-header {
-    background-color: rgb(152, 187, 219);
+body::-webkit-scrollbar {
+    display: none;
+}
+/* Header styling */
+nav {
+    background-color: #031d44;
+    height: 100vh;
+    color: #f7f5fb;
     display: flex; 
-    flex-direction: column;
-    width: 80%;
-    margin: 0 auto;
+    justify-content: space-between;
 }
 
 ul {
@@ -17,10 +22,25 @@ ul {
     justify-content: flex-end;
     margin: 20px;
 }
+
+
 a {
-    color: black;
+    color: #f7f5fb;
     text-decoration: none;
 }
 a:hover { 
     text-decoration: none;
     color:rgb(36, 99, 216);
+}
+
+/*Main body */
+section {
+    height: 500px;
+    background-color: antiquewhite;
+}
+
+/*Main body */
+footer {
+    height: 500px;
+    background-color: #031d44;
+}
