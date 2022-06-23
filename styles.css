@@ -160,7 +160,38 @@ h2 {
     font-size: 16px;
  }
 
+ /*Footer */
 footer {
-    height: 500px;
+    padding: 120px 0;
     background-color: #031d44;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:#f7f5fb;
+}
+
+form input, textarea {
+    margin-bottom: 20px;
+    width: 350px;
+    height: 50px;
+    border-radius: 10px;
+    border-style: solid;
+   font-size: 15px;
+}
+
+textarea{
+    border-width: 2px;
+    font-size: 14px;
+}
+
+#message {
+    height: 250px;
+    width: 350px;
+}
+
+::placeholder {
+   font-style: italic;
+   padding-left: 10px;
+   font-size: 15px;
 }
