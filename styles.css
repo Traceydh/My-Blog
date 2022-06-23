@@ -1,28 +1,33 @@
 body {
     font-family: 'Open Sans', sans-serif;
     margin: 0;
+    font-size: 25px;
 }
 
 body::-webkit-scrollbar {
     display: none;
 }
+
 /* Header styling */
-nav {
+header {
     background-color: #031d44;
     height: 100vh;
     color: #f7f5fb;
+}
+
+nav {
     display: flex; 
     justify-content: space-between;
+    font-size: 16px;
 }
 
 ul {
     list-style: none;
     display: flex; 
-    gap: 20px;
     justify-content: flex-end;
-    margin: 20px;
+    width: 400px;
+    justify-content: space-around;
 }
-
 
 a {
     color: #f7f5fb;
@@ -31,6 +36,29 @@ a {
 a:hover { 
     text-decoration: none;
     color:rgb(36, 99, 216);
+}
+
+h1 {
+    font-size: 70px;
+    margin-bottom: -10px;
+}
+
+p {
+    font-weight: 400;
+
+}
+
+.text-area {
+    display: flex; 
+    justify-content: center;
+}
+
+button {
+    background-color: #219ebc;
+    padding: 10px 15px;
+    border-radius: 25px;
+    border-style: none;
+    font-size: 16px;
 }
 
 /*Main body */
