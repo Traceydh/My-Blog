@@ -86,6 +86,7 @@ section {
 /*About me  */
 .sub-section {
     display: flex;
+    height: 100vh;
     justify-content: space-around;
     align-items: center;
     margin: 120px 80px;
@@ -110,6 +111,7 @@ h2 {
 
 /*Project */
 .project-section {
+    height: 100vh;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -153,6 +155,7 @@ h2 {
 
  /*Footer */
  footer {
+    height: 100vh;
     padding: 50px 0;
     background-color: #031d44;
     display: flex;
@@ -172,10 +175,14 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    text-align: center;
+ }
+
+ .connect-with-me h2 {
+    margin: 0;
  }
 
 .form-container {
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -191,9 +198,10 @@ form input, textarea {
     margin-bottom: 20px;
     width: 350px;
     height: 50px;
-    border-radius: 10px;
+    border-radius: 5px;
     border-style: solid;
    font-size: 15px;
+   border-color: #219ebc;
 }
 
 textarea{
@@ -210,4 +218,6 @@ textarea{
    font-style: italic;
    padding-left: 10px;
    font-size: 15px;
+   color:#8ecae6;
+
 }
